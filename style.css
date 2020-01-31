@@ -1,0 +1,48 @@
+body{
+background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+  
+   
+.title{
+  width: 20%
+  height 80%;
+  color: white;
+  font-family: 'Major Mono Display', monospace;
+  position: absolute 0px 20px;
+  width:80px;
+  height:160px;
+
+}
+.home{
+  color:#eeaeca ;
+  font-family: 'Major Mono Display', monospace;
+  position: relative; 
+  float: left;
+  width:80px;
+  height:160px;
+}
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: #94bbe9;
+}
+
+.wrapper{
+  position: relative 50px 50px; 
+  float:right;
+  width:90%;
+  height:160px;
+  color: transparent;
+  font-family: 'VT323', monospace;
+  font: bold;
+  user-select: pink;
+
+}
+::selection {
+  color: white;
+  background: transparent;
+}

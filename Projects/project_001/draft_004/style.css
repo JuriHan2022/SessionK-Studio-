@@ -1,0 +1,151 @@
+.wrapper1{
+    position: absolute;
+    width: 100%;
+    height:60em;
+    position: absolute;
+    float: inherit;
+    top: 0em;
+    left: 0em;
+    animation: colorchange 2.5s; /* animation-name followed by duration in seconds*/
+         /* you could also use milliseconds (ms) or something like 2.5s */
+      -webkit-animation: colorchange 30s; /* Chrome and Safari */
+    }
+
+    @keyframes colorchange
+    {
+      0%   {background: pink}
+      25%  {background:rgb(26, 6, 141)}
+      50%  {background: paleturquoise;}
+      75%  {background:palegreen;}
+      100% {background: grey;}
+    }
+
+    @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+    {
+        0%   {background: pink}
+        25%  {background:magenta}
+        50%  {background: paleturquoise;}
+        75%  {background:palegreen;}
+        100% {background: grey;}
+    }
+}
+p.pink::selection {
+    background: grey; /* WebKit/Blink Browsers */
+  }
+    p1 {
+        font-family: 'Gloria Hallelujah', cursive;
+        position: relative;
+        width: 90%;
+        height:60em;
+        float: inherit;
+        top: 2em;
+        left: 2em;
+        color: grey;
+        text-align: center;
+        font-size: 6px;
+    }
+
+    .leftcupboards{
+        position: relative;
+        width: 30%;
+        height:32em;
+        float: left;
+        font-size: 8px;
+        border: 2px solid yellow;
+        top: 20em;
+        left: 20em;
+        color: yellow;
+
+
+    }
+    .fittedcarpet{
+        position: relative;
+        width: 10%;
+        height:36em;
+        float: left;
+        font-size: 8px;
+        border: 2px solid yellow;
+        left: 10em;
+        color: yellow;
+
+    }
+    .rightcupboards{
+        position: relative;
+        width: 30%;
+        height:32em;
+        float: left;
+        font-size: 8px;
+        border: 2px solid yellow;
+        top: 30em;
+        left: 5em;
+        color: yellow;
+
+    }
+.wrapper2{
+    position: absolute;
+    width: 100%;
+    height:120em;
+    background-color: green;
+    position: absolute;
+    float: inherit;
+    top: 60em;
+    left: 0em;
+    letter-spacing: 1em;
+    word-spacing: 1em;
+    color: pink;
+    font-size: 12px;
+
+}
+.longtext{
+    font-size: 8px;
+    position: relative;
+    top:2em;
+    left:80em;
+}
+.wrapper3{
+    position: absolute;
+    width: 100%;
+    height:180em;
+    background-color: lavender;
+    position: absolute;
+    float: inherit;
+    top: 120em;
+    left: 0em;
+    font-family: 'Questrial', sans-serif;
+
+}
+
+p3 {
+    position: relative;
+    width: 90%;
+    float: inherit;
+    top: 2em;
+    left: 2em;
+    text-align: center;
+    font-size: 30px;
+    background-color: lavender;
+
+}
+
+.rightalign{
+    position: relative;
+    width: 90%;
+    float: inherit;
+    text-align: left;
+    font-size: 15px;
+    word-spacing: 0px;
+}
+
+.leftalign{
+    position: relative;
+    width: 90%;
+    float: inherit;
+    text-align: left;
+    font-size: 20px;
+    left: 30em;
+    word-spacing: 0px;
+}
+
+::selection {
+    background: black; /* WebKit/Blink Browsers */
+  }

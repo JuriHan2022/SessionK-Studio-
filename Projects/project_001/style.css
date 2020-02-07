@@ -1,0 +1,127 @@
+
+body{
+background: rgb(238,174,202);
+background-color: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+.wrapper1{
+  width: 98vw;
+  height:30vh;
+  position: absolute;
+  top: 5vh;
+  left: 1vw; 
+  right: 1vw;
+  text-align: center;
+}
+  .title{
+    width:15vw;
+    position: relative;
+    float: left;
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Cinzel', serif;
+    color: yellow; 
+    font-weight: bold;
+    word-spacing: 12px;
+  }
+  .home{
+    width:75vw;
+    position: relative;
+    float: left;
+    text-align: center;
+    font-size: 160px;
+    font-family: 'Cinzel', serif;
+    color: yellow; 
+    font-weight: bold;
+  }
+.wrapper2{
+  width: 98vw;
+  height:80vh;
+  position: absolute;
+  top: 30vh;
+  left: 1vw; 
+  right: 1vw;
+  text-align: center;
+}
+  .currentworks{
+    width:15vw;
+    position: relative;
+    float: left;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Cinzel', serif;
+    color: yellow; 
+    font-weight: bold;
+    word-spacing: 12px;
+  }
+  .profile{
+    width:45vw;
+    height:30vh;
+    position: relative;
+    float: right;
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Cinzel', serif;
+    color: yellow; 
+    font-weight: bold;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+ //* 
+.currentworks {
+  color: black
+
+}
+.title{
+  width: 20%
+  height 80%;
+  color: white;
+  font-family: 'Major Mono Display', monospace;
+  position: absolute 0px 20px;
+  width:80px;
+  height:160px;
+
+}
+.home{
+  color:#eeaeca ;
+  font-family: 'Major Mono Display', monospace;
+  position: relative; 
+  float: left;
+  width:80px;
+  height:160px;
+}
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: #94bbe9;
+}
+
+.wrapper{
+  position: relative 50px 50px; 
+  float:right;
+  width:90%;
+  height:160px;
+  color: transparent;
+  font-family: 'VT323', monospace;
+  font: bold;
+  user-select: pink;
+
+}
+::selection {
+  color: white;
+  background: transparent;
+}//*
+
+//**{border: 1px solid red}*//

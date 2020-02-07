@@ -1,0 +1,98 @@
+body{
+
+    padding: 2px;
+  width:100vw;
+}
+
+.wrapper{
+    margin:auto;
+    max-width: 100vw;
+}
+
+.leftcupboards{ 
+    float: left;
+    margin-top: 1em;
+    color: orangered;
+    padding:2em;
+
+}
+
+.fittedcarpet{
+    float:left;
+    text-align: center;
+    margin: 2px;
+    background-color: red;
+    color: transparent;
+
+}
+
+.rightcupboards{
+    float:left;
+    margin-top: 1em;
+    color: orangered;
+    padding:2em;
+
+}
+.box{
+    float:left;
+    text-align: center;
+    margin: 2px;
+    color: olive; 
+}
+
+
+.thick {
+    text-align: justify;
+    float:left;
+    max-width: 100vw;
+}
+
+    
+
+.black {
+    text-align: center;
+    float:left;
+    text-transform: uppercase;
+    background-color: black;
+    color:black;
+    max-width: 100vw;
+}
+::selection {
+    Color:white;
+ }
+
+
+.emptyspace{
+    width:40%;
+    float:left;
+
+}
+
+.longtext{
+    text-align: center;
+    float:left;
+    text-transform: uppercase;
+    background-color: olive;
+    color: transparent;
+    max-width: 100vw;
+}
+
+.piles {
+    text-align: center;
+    float:left;
+    text-transform: uppercase;
+    color: olive;
+    max-width: 100vw;
+    word-spacing: 4em;
+}
+
+.peral{
+    text-align: center;
+    float:left;
+    text-transform: uppercase;
+    background-color: orangered;
+    color: transparent;
+    max-width: 100vw;
+    letter-spacing: 2em;
+    
+}

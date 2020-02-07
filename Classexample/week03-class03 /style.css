@@ -1,0 +1,85 @@
+//*<body>
+<div class="wrapper">
+  <div class="top">
+    <div class="right">
+      <div class="1b"></div>
+      <div class="2b"></div>
+      <div class="3b"></div>
+    </div>
+    <div class="left">
+       <div class="1"></div>
+      <div class="2"></div> 
+    </div>
+  </div>
+  <div class="bottom">
+    <div class="right">
+      <div class="4"></div>
+      <div class="5"></div>
+      <div class="3"></div>
+    </div>
+    <div class="left">
+       <div class="5"></div>
+      <div class="2"></div> 
+    </div>
+  </div>
+</div>*//
+
+.body{
+
+}
+
+.wrapper{
+    width: 60%;
+    height:80%;
+    background-color: darkgray;
+    position: absolute;
+    float: center; 
+    top: 5em;
+    left: 16em;
+}
+
+.top{
+    background-color: blueviolet;
+    width: 50%;
+    height:100%;
+    position: relative;
+    float: left; 
+    top: 0em;
+    left: 0em;
+}
+.right{
+    background-color: red;
+    width: 50%;
+    height:50%;
+    position: relative;
+    float: left; 
+    top: 0em;
+    left: 0em;
+}
+
+
+.left{
+  background-color: olivedrab;
+  width: 50%;
+  height:50%;
+  position: relative;
+  float: right; 
+  top: 0em;
+  left: 0em;
+
+}
+
+
+.bottom{
+    background-color: cornsilk;
+    width: 50%;
+    height:100%;
+    position: relative;
+    float: left; 
+    top: 0em;
+    left: 0em;
+}
+
+.box1{
+
+}

@@ -1,0 +1,258 @@
+nav{
+    position: fixed;
+    top:10vh;
+    height:80vh;
+    width: 10vw;
+   : transparent; 
+    color: black;
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    z-index: 9999;
+    font-family: 'Lateef', cursive;
+   
+}
+    ul{
+        list-style-type: none;
+        margin: 0em;
+        padding: 0em;     
+    }
+    li{
+        margin-top: 2em;
+        padding-bottom: 2em;
+    }
+
+main{
+    position: absolute;
+    top:2vh;
+    width: 100vw; 
+    background: rgb(0,0,0);
+    background: linear-gradient( rgba(0,0,0,1) 6%, rgba(16,0,61,1) 40%, rgba(26,0,148,1) 65%, rgba(255,171,186,1) 96%);
+}
+    .section1{
+        position: relative;
+        width: 100vw;
+        height: 150vh; 
+        color: white; 
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        justify-content: center;
+        text-align: center;
+        font-family: 'Lateef', cursive;
+        text-shadow: solid 10px white; 
+        
+        }
+        .section1 > div{
+            font-size: 20px;
+            justify-content: center;
+            text-align: center;
+            text-shadow: 1px 1px white;
+        }
+       
+
+      
+    .section2{
+        position: relative;
+        height: 100vh; 
+        :white;  
+        padding: 0em;
+        border: 0em;
+        font-family: 'Dawning of a New Day', cursive;
+        padding: 10em; 
+        color: white; 
+        text-shadow: 4px 4px #ffabba;
+    }
+        .section2 >h6{
+            text-align: center;
+            justify-content: center;
+        }
+        .section2 > h5{
+            text-align: center;
+            justify-content: center;
+
+        }
+        .section2 > h4{
+            text-align: center;
+            justify-content: center;
+
+        }
+        .section2 > h3{
+            text-align: center;
+            justify-content: center;
+
+        }
+        .section2 > h2{
+            text-align: center;
+            justify-content: center;
+
+        }
+        .section2 > h1{
+            text-align: center;
+            font-size: 40px;
+        }
+        .section2> p{
+            font-size: 120px;
+            text-align: center;
+            justify-content: justify;
+            margin-top: -.7em;
+        }
+           
+
+    
+    .section3{
+        position: relative;
+        width: 100vw;
+        height: 150vh;
+        display: grid; 
+        grid-template-rows: 3fr 4fr 5fr;
+        grid-template-columns:1fr 1fr 1fr ;
+        justify-content: center;
+        text-align: center;
+        font-family: 'Lateef', cursive;
+        color: white; 
+        text-shadow: 4px 4px #1a0094;
+        
+      
+        
+    }
+    .section3 > div:nth-child(4n){
+        : #00abe5;
+        font-size: 20px;
+        justify-content: center;
+        text-align: center;
+        color: white; 
+        
+    }
+
+    .section3 > div:nth-child(1){
+        : #ffde17; 
+    }
+    .section3 > div:nth-child(2){
+        : #e95a4e;
+    }
+    .section3 > div:nth-child(3){
+        : #e95a4e; 
+    }
+    .section3 > div:nth-child(5){
+        :#00abe5; 
+    }
+    .section3 > div:nth-child(6){
+        : #e95a4e; 
+    }
+    .section3 > div:nth-child(7){
+        : #ffde17;
+    }
+    .section3 > div:nth-child(9){
+        : #ffde17; 
+    }
+
+    .class35{
+        position: relative; 
+        padding: 5vw; 
+        color: white; 
+        text-shadow: 4px 4px #1a0094;
+        font-size: 16px; 
+        text-align: center; 
+
+    }
+   
+    }
+    .section4{
+        position: relative;
+        width: 100vw;
+        height: 200vh; 
+        display: block;
+        font-family: 'Lateef', cursive;
+        font-size: 36px; 
+        height: 100vh;
+        display: grid; 
+        grid-template-columns: 1fr 1fr;
+    
+    }
+    .section4 > div:nth-child(1){
+            width: 44vw;
+            color: #ffabba; 
+            float: left; 
+            font-family: 'Lateef', cursive;
+            font-size: 36px; 
+            padding: 3vw; 
+            text-shadow: 2px 2px white;
+    }
+
+    .section4 > div:nth-child(2){
+        display: grid;
+        width: 44vw;
+        color: white; 
+        float:left; 
+        font-family: 'Lateef', cursive;
+        font-size: 36px; 
+        padding: 3vw; 
+        text-align: justify;
+        justify-content: center;
+        text-shadow: 2px 2px #ffabba;
+    }
+
+     
+
+    .wrapper3{
+        position: relative;
+        width: 80vw;
+        padding: 10vw; 
+    
+        display: inline-block; 
+        
+    }
+    
+    p3 {
+       : white; 
+        width: 80vw;
+        height: 80vh;
+        position: relative; 
+        font-size: 10px; 
+        color: white;
+        }
+    
+    
+    .rightalign{
+        position: relative;
+        width: 100vw;
+        float: inherit;
+        text-align: left;
+        color: white; 
+        font-family: 'Dawning of a New Day', cursive;   
+       
+    }
+    
+    .leftalign{
+        position: relative;
+        width: 40vw;
+        float: inherit;
+        text-align: left;
+        left: 20vw; 
+        color: black; 
+        font-family: 'Lateef', cursive;
+       : white; 
+    }
+
+    a:link {
+        color: black;
+        text-decoration: none;
+      }
+      
+      /* visited link */
+      a:visited {
+        color:  black;
+      }
+      
+      /* mouse over link */
+      a:hover {
+        color: white;
+      }
+      
+      /* selected link */
+      a:active {
+        color: #ffabba;
+      }

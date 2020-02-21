@@ -1,0 +1,128 @@
+
+body{
+    background-color: rgb(143, 40, 240);
+    color: gold;  
+}
+h1{
+    font-size: 80;
+    font-family: 'Diplomata';
+    justify-content: center;
+    align-items: center;
+    position: absolute; 
+    top: 2vh;
+    left: 30vw; 
+    right: 30vw; 
+}
+main{
+    position: absolute;
+    top: 20vh;
+    left: 2vw;
+    right: 10vw; 
+    display: grid;
+   `grid-template-rows: 1fr 1fr;
+}
+
+.top{
+display: grid;
+grid-template-columns: 1fr 1fr;
+width: 70%; 
+}
+.top>div{
+    justify-content: start;
+    text-align: start;
+    list-style-type: none;
+}
+.bottom{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+width: 70%; 
+}
+.bottom>div{
+    padding-right: 3em; 
+    border-bottom: 2px gold dotted;
+    padding-bottom: 1em;
+}
+
+.images{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr; 
+    width: 70%;
+}
+.images>img{
+    display: inline-block; 
+}
+
+.images>div{
+    border-bottom: 2px aquamarine dotted;
+    padding: 1em; 
+}
+
+.aside{
+    position: absolute;
+    width: 20vw; 
+    top: 20vh;
+    right: 2vw; 
+    float: left; 
+    border-top: 20px aqua solid;
+    border-left: 2px hotpink solid;
+    border-right: 2px aqua solid;
+    border-bottom: 20px double gold;
+    justify-content: center;
+    padding: 2em; 
+}
+
+.aside>ul>p{
+    color: hotpink; 
+    font-weight: bold;
+    font-size: 36px; 
+    margin: -10px; 
+    left:-10px;
+    position: relative;
+    justify-content: center;
+    font-family: 'Barrio';
+}
+
+.aside>ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    text-align: start;
+    left:-20px;
+    position: relative;
+}
+
+.aside>ul>li{
+    border-bottom: 2px hotpink  dotted;
+}
+
+.menu{
+    position: absolute;
+    width: 100vw; 
+    top: 10vh;
+    right: 2vw; 
+    left: 2vw; 
+    border-bottom: 10px double gold;
+    justify-content: center;
+    padding: 5px; 
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+    font-family: 'Monofett';
+    font-size: 20px; 
+}
+
+
+.menu>div{  
+    flex-wrap: wrap;
+    flex-shrink: inherit;
+    padding: 1em; 
+    
+}
+
+h5{
+    font-family: 'Monofett';
+    font-size: 20px; 
+    color: aquamarine; 
+}
